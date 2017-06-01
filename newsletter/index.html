@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <title></title>
+  <meta content="" name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link charset="utf-8" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media=
+  "screen" rel="stylesheet" title="no title">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <div id="icon-wrapper"></div>
+    <ul class="nav-row">
+      <li class="nav-item"><a href="../index.html">Home</a></li>
+      <li class="nav-item"><a href="../about/index.html">About</a></li>
+      <li class="nav-item"><a href="index.html">Newsletter</a></li>
+    </ul>
+  </nav>
+  <header>
+    <div class=header_content>
+      <h1>Sign Up for Our Weekly Newsletter</h1>
+      <h3>Stay up to date with events, activities,
+        news and specials.</h3>
+      <form action="https://newline.theironyard.com/cohorts/8/courses/3/projects/17" method="POST">
+        <fieldset>
+          <div class="form" id="Name">
+            <label for="Name">Name</label>
+            <input type="text" name="name">
+          </div>
+          <br>
+          <div class="form" id="email">
+            <label for="email">Email</label>
+            <input type="email" name="email">
+          </div>
+          <button type="submit" class="button"/>Submit</button>
+        </fieldset>
+      </form>
+    </div>
+  </header>
+
+
+  <script type="text/javascript">
+  var nameInput = document.getElementById('nameInput');
+  var emailInput = document.getElementById('emailInput');
+  var signupButton = document.getElementById('signupButton');
+  signupButton.addEventListener('click', function(e) {
+    var nameVal = nameInput.value;
+    var emailVal = emailInput.value;
+    if (nameVal && emailVal) {
+      alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+      nameInput.value = "";
+      emailInput.value = "";
+    } else {
+      alert('We would love for you to sign up, please provide both your name and email address.');
+    }
+  });
+</script>
+</body>
+</html>

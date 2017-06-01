@@ -1,0 +1,94 @@
+body{
+  background-color: black;
+  margin: 0 0;
+  font-family: 'roboto', serif;
+  margin-top:60px;
+}
+nav{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: #F2F1E8;
+  margin-bottom: 0;
+
+}
+
+#icon-wrapper{
+  background-image: url("../image/optimized/bent-creek-logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  margin-left: 10px;
+}
+.nav-row{
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+  margin:0 0;
+}
+
+.nav-item{
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-right:10px;
+  padding-left: 0px;
+
+}
+
+header{
+  box-shadow: 0 -5px 5px -5px #333;
+  margin-top: 0;
+  text-align: center;
+  padding-top: 20px;
+  height: 600px;
+  background-image: url("../image/optimized/background-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  font-weight: 100;
+}
+h3{
+  font-weight: 100;
+  font-size: 1.3em;
+}
+.header_content{
+  font-family: 'Merriweather', serif;
+  position: absolute;
+  background-color: #F2F1E8;
+  top:22%;
+  left:27%;
+  width:45%;
+  height:45%;
+  padding-top: 25px;
+}
+
+fieldset{
+  text-align: left;
+  border: none;
+  font-size: 1.3em;
+}
+.form{
+  padding:10px 10px 0px 0px;
+  margin-bottom: 10px;
+  border-bottom:  2px solid #968772;
+  color: #7f776c;
+}
+input{
+  border: none;
+  background-color: #F2F1E8;
+}
+.button{
+  margin-top: 30px;
+  padding:10px 20px;
+  font-size: 1.2em;
+  position: absolute;
+  left: 40%;
+  background-color: #968772;
+  color:#F2F1E8;
+  border: none;
+}

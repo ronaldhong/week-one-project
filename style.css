@@ -1,0 +1,179 @@
+
+body{
+  background-color: black;
+  background-position:center;
+  margin: auto;
+  width:75%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+main{
+  /*display: flex;*/
+  background-color:  #f2f1e8;
+  padding-left: 25px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#icon-wrapper{
+  background-image: url("./image/optimized/bent-creek-logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  background-position: left;
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+
+}
+nav{
+  position: fixed;
+  width: 75%;
+  background-color: white;
+}
+
+.nav-row{
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  list-style: none;
+}
+.nav-item{
+  margin: 0 30px;
+}
+
+.page-header{
+  margin-bottom: 0px;
+  background-color: #f2f1e8;
+}
+.header-content{
+  padding-top: 20px;
+  font-family: "Merriweather", serif;
+}
+.main-heading{
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 10px;
+  font-weight: 200;
+
+}
+
+.sub-heading{
+  text-align: center;
+  font-size: 2em;
+  margin-top: 0px;
+  font-weight: normal;
+  font-weight: 100;
+}
+
+.blog-row{
+  display: inline;
+  margin: auto 20px;
+
+}
+.item{
+  margin: 0px 10px 10px 10px;
+}
+#EP{
+  background-image: url("./image/optimized/product-1.jpg");
+  height: 250px;
+  width: 570px;
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+  float: left;
+}
+
+#Sets{
+  background-image: url("./image/optimized/product-2.jpg");
+  height: 250px;
+  width: 18%;
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+  float: left;
+}
+
+#Textures{
+  background-image: url("./image/optimized/product-3.jpg");
+  height: 250px;
+  width: 18%;
+  background-size: cover;
+  position: relative;
+  float: left;
+}
+
+#TT{
+  background-image: url("./image/optimized/product-4.jpg");
+  height: 150px;
+  width: 18%;
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+  float: left;
+}
+
+
+#JaC{
+  background-image: url("./image/optimized/product-5.jpg");
+  height: 150px;
+  width: 18%;
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+  float: left;
+}
+
+#WaS{
+  background-image: url("./image/optimized/product-6.jpg");
+  height: 150px;
+  width: 35%;
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+  float: left;
+}
+#SoS{
+  background-image: url("./image/optimized/product-7.jpg");
+  height: 150px;
+  width: 18%;
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+  float: left;
+}
+/*.item:nth-child(1){
+    background-image: url("./image/optimized/product-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 225px;
+    width: 450px;
+}
+.item:nth-child(2){
+  background-image: url("./image/optimized/product-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 225px;
+  width: 75px;
+}*/
+
+h4{
+  position: absolute;
+  bottom: 10px;
+  background-color: #2b382b;
+  color: #F2F1E8;
+  padding: 10px 10px 10px 10px;
+  margin: 0px;
+}
+
+footer{
+  padding: 30px 30px 30px 30px;
+  background-color: #1c331f;
+}
+span{
+  color: #F2F1E8;
+}

@@ -1,0 +1,195 @@
+/*@import url('https://fonts.google.com/?selection.family=Merriweather:300,300i,400,400i,700%7CRoboto:300,300i,400,400i');
+font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;*/
+
+body{
+  font-family: 'Merriweather', serif;
+  background-position:center;
+  margin: auto;
+  width:60%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+main{
+  background-color:  #f2f1e8;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+
+
+#icon-wrapper{
+  background-image: url("../image/optimized/bent-creek-logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  position: absolute;
+  margin-left: 10px;
+
+}
+nav{
+  width: 60%;
+  background-color: white;
+  position: fixed;
+  height:45px;
+}
+.nav-row{
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.nav-item{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-right:10px;
+  padding-left: 0px;
+}
+h1{
+  font-weight: 300;
+  padding-top: 10px;
+}
+header{
+  background-color: #f2f1e8;
+  padding: 20px 120px 0px 120px;
+}
+.page-title{
+  text-align: center;
+}
+
+#header-pic{
+  background-image: url("../image/optimized/birdhouse.jpg");
+  float: left;
+  height: 80px;
+  width: 90px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+#header-content{
+  line-height: 150%;
+  font-size: .8em;
+}
+
+#note{
+  color: #968772;
+  border-bottom: 1px solid #968772;
+
+}
+blockquote{
+  font-family: 'merriweather', serif;
+  font-size: .78em;
+  border: none;
+  border-left: 1px solid black;
+  padding-left: 25px;
+  margin-left: 0;
+  padding-top: 5px;
+  font-weight: 200;
+}
+
+.side-content{
+  line-height: 150%;
+  font-size: .7em;
+  padding-left: 0px;
+}
+#icon-heading{
+  background-image: url("../image/optimized/background-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: ;
+  height:150px;
+}
+
+footer{
+  background-color: #2B2F26;
+  color: white;
+  height: 60px;
+}
+#footer-note{
+  padding-top: 20px;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+
+#icon-heading{
+  text-align: center;
+  line-height: 130px;
+  font-size: 2em;
+  color: white;
+}
+.icon{
+    font-size: 1.3em;
+}
+.topic_one{
+  margin:0px 120px 20px 120px;
+}
+
+.topic_two{
+  margin:20px 120px;
+}
+.topic_three{
+  margin: 0px 120px;
+}
+
+.topic_two_note{
+  display: flex;
+  justify-content: space-between;
+}
+
+#facilities_content{
+  line-height: 150%;
+  font-size: .9em;
+  padding-right: 20px;
+  width: 70%;
+
+}
+
+#facilities_img{
+  margin-top: 10px;
+  background-image: url("../image/optimized/background-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60px;
+  width: 80px;
+}
+.img_note{
+  width:150px;
+  height: 100px;
+
+}
+h5{
+  font-size: .6em;
+  line-height: 100%;
+  width:85px;
+  margin: 0 0;
+}
+.MP{
+  padding-top: 15px;
+}
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 1em;
+  width:75%
+}
+th{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+th, td{
+  border: 1px solid black;
+  padding:5px 10px 5px 10px;
+}
+
+.color{
+  background-color: #f9e7cc;
+}
+#footer-note{
+  font-size: .8em;
+}
